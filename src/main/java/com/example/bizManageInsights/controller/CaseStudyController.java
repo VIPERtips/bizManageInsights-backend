@@ -13,7 +13,7 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/api/case-studies")
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = {"http://localhost:3000","https://biz-manage-insights.vercel.app"})
 public class CaseStudyController {
 
     @Autowired
